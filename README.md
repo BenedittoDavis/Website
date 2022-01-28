@@ -1,4 +1,3 @@
-# testwebsite
-for testing purpose
-
-actually i like this one github seems like a cool thing to mess with
+# Myweb
+Beneditto's Website
+Nothing much now just little webpage stuff im just trying out html
