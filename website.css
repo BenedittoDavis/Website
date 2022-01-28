@@ -1,0 +1,37 @@
+body{
+    font-family:sans-serif;
+}*{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position: absolute;
+    background-color: rgb(208, 255, 0);
+    width: 100%;
+    color: black;
+}
+header h1{
+    position: absolute;
+    left: 40%;
+    bottom: 29%;
+}
+header{
+    height: 10vh;
+}
+footer h2{
+    position: absolute;
+    bottom: 23px;
+    left: 12px;
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+}
+button{
+    height: 47px;
+    width: 133px;
+    border-radius: 10px;
+    background-color:yellowgreen;
+    color:black;
+    border-color: lawngreen;
+}
