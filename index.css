@@ -15,11 +15,6 @@ header h1{
     left: 40%;
     bottom: 29%;
 }
-header h3{
-    position: absolute;
-    left: 10%;
-    bottom: 29%;
-}
 header{
     height: 10vh;
 }
