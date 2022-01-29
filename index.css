@@ -6,7 +6,7 @@ body{
 }
 header,footer{
     position: absolute;
-    background-color: rgb(208, 255, 0);
+    background-color: deepskyblue;
     width: 100%;
     color: black;
 }
@@ -14,6 +14,12 @@ header h1{
     position: absolute;
     left: 40%;
     bottom: 29%;
+}
+header h3{
+    position: absolute;
+    left: 1%;
+    bottom: 10%;
+    font-size: 50px;
 }
 header{
     height: 10vh;
@@ -26,6 +32,19 @@ footer h2{
 footer{
     height: 10vh;
     bottom: 0;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left: 1000px;
+    top: 20px;
+    color: black;
+    text-decoration: underline;
+    margin-left: 50px;
+    font-size: 30px;
 }
 button{
     height: 47px;
