@@ -1,0 +1,83 @@
+body{
+    font-family:sans-serif;
+}*{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position: absolute;
+    background-color: deepskyblue;
+    width: 100%;
+    color: black;
+}
+header h1{
+    position: absolute;
+    left: 40%;
+    bottom: 29%;
+}
+header h3{
+    position: absolute;
+    left: 1%;
+    bottom: 10%;
+    font-size: 50px;
+}
+.beneditto a{
+    color: whitesmoke;
+}
+header{
+    height: 10vh;
+}
+footer h2{
+    position: absolute;
+    bottom: 23px;
+    left: 12px;
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left: 1000px;
+    top: 20px;
+    color: black;
+    text-decoration: underline;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.nav a:hover{
+    color: whitesmoke;
+}
+button{
+    height: 47px;
+    width: 133px;
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    color:black;
+    border-color:dodgerblue;
+    font-size: 30px;
+}
+.container{
+    max-width: 1148px;
+    margin:auto;
+    background:whitesmoke;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 370px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 10px;
+    text-align: center;
+}
