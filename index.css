@@ -21,9 +21,6 @@ header h3{
     bottom: 10%;
     font-size: 50px;
 }
-.beneditto a{
-    color: whitesmoke;
-}
 header{
     height: 10vh;
 }
@@ -53,13 +50,14 @@ footer{
     color: whitesmoke;
 }
 button{
-    height: 47px;
-    width: 133px;
+    height: 44px;
+    width: 145px;
     border-radius: 10px;
     background-color:cornflowerblue;
     color:black;
     border-color:dodgerblue;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 .container{
     max-width: 1148px;
