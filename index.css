@@ -21,6 +21,7 @@ header h3{
     bottom: 10%;
     font-size: 50px;
 }
+
 header{
     height: 10vh;
 }
@@ -67,13 +68,12 @@ button{
 }
 .gallery{
     margin: 5px;
-    border: 2px solid black;
+    border: 1px solid black;
     float: left;
-    width: 370px;
 }
-.gallery img{
-    width: 100%;
-    height: auto;
+a img{
+    width: 200px;
+    height: 100px;
 }
 .desc{
     padding: 10px;
