@@ -1,52 +1,82 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Fun</title>
-    <link rel="stylesheet" type="text/css" href="https://benedittodavis.github.io/index.css">
-    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/881491002953707561/936534426131775528/8210e7f5bf5e03f5dee15f6ce4232feb.png">
-</head>
-<body>
-<header>
-    <a href="https://benedittodavis.github.io"><h3 style="color: black;">Beneditto</h3></a>
-    <h1>Fun</h1>
-    <div class="nav">
-        <a href="https://benedittodavis.github.io/page/about">About</a>
-        <a href="https://benedittodavis.github.io/fun/fun">Fun</a>
-        <a href="https://github.com/BenedittoDavis/benedittodavis.github.io">Github</a>
-    </div>
-</header>
-<br><br><br><br><br>
-<div class="container">
-    <a href="https://benedittodavis.github.io/fun/soundboard"><div class="imagef">
-        <img src="https://media.discordapp.net/attachments/881490960649977878/937382078683705344/unknown.png"></img>
-        <div class="desc">Sound Board v4000</div>
-    </div></a>
-    <div class="gallery">
-        <img src="https://media.discordapp.net/attachments/881490960649977878/937421565807710258/EEEEEe.png"></img>
-        <div class="desc">Empty</div>
-    </div>
-    <div class="gallery">
-        <img src="https://media.discordapp.net/attachments/881490960649977878/937421565807710258/EEEEEe.png"></img>
-        <div class="desc">Empty</div>
-    </div>
-    <div class="gallery">
-        <img src="https://media.discordapp.net/attachments/881490960649977878/937421565807710258/EEEEEe.png"></img>
-        <div class="desc">Empty</div>
-    </div>
-    <div class="gallery">
-        <img src="https://media.discordapp.net/attachments/881490960649977878/937421565807710258/EEEEEe.png"></img>
-        <div class="desc">Empty</div>
-    </div>
-    <div class="gallery">
-        <img src="https://media.discordapp.net/attachments/881490960649977878/937421565807710258/EEEEEe.png"></img>
-        <div class="desc">Empty</div>
-    </div>
-</div>
+body{
+    font-family:sans-serif;
+}*{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position: absolute;
+    background-color: deepskyblue;
+    width: 100%;
+    color: black;
+}
+header h1{
+    position: absolute;
+    left: 40%;
+    bottom: 29%;
+}
+header h3{
+    position: absolute;
+    left: 1%;
+    bottom: 10%;
+    font-size: 50px;
+}
 
-<footer>
-    <h2>&copy Beneditto 2022</h2>
-</footer>
-<script>
-</script>
-</body>
-</html>
+header{
+    height: 10vh;
+}
+footer h2{
+    position: absolute;
+    bottom: 23px;
+    left: 12px;
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left: 1000px;
+    top: 20px;
+    color: black;
+    text-decoration: underline;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.nav a:hover{
+    color: whitesmoke;
+}
+button{
+    height: 44px;
+    width: 145px;
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    color:black;
+    border-color:dodgerblue;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 940px;
+    margin:auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+}
+a img{
+    width: 300px;
+    height: 200px;
+}
+.desc{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
