@@ -1,107 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sound Board v4000</title>
-    <link rel="stylesheet" type="text/css" href="https://benedittodavis.github.io/index.css">
-    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/881491002953707561/936534426131775528/8210e7f5bf5e03f5dee15f6ce4232feb.png">
+    <title>Sound Board</title>
+    <link rel="stylesheet" href="https://benedittodavis.github.io/index.css">
+    <script type="text/javascript" async src="https://benedittodavis.github.io/fun/sounds.js"></script>
+    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/934759152650158211/943541540352049152/website_logo.png">
 </head>
 <body>
-<header>
-    <a href="https://benedittodavis.github.io"><h3 style="color: black;">Beneditto</h3></a>
-    <h1>Sound Board v4000</h1>
-    <div class="nav">
-        <a href="https://benedittodavis.github.io/page/about">About</a>
-        <a href="https://benedittodavis.github.io/fun/fun">Fun</a>
-        <a href="https://github.com/BenedittoDavis/benedittodavis.github.io">Github</a>
-    </div>
-</header>
-<br><br><br><br><br>
-<table>
-<a href="https://benedittodavis.github.io/fun/soundboard"><button style="background-color: rgb(255, 0, 0); border-color:crimson;">STOP</button></a>
-<button onclick="chandr.play();">Chandranil Chothi</button>
-<button onclick="emotional.play();">Emotional Damage</button>
-<button onclick="velachil.play();">Velachil Edkaruthe</button>
-<button onclick="freshnew.play();">Fresh, New</button>
-<br><br>
-<button onclick="claps.play();">Claps</button>
-<button onclick="vannu.play();">Aven Vannu</button>
-<button onclick="arada.play();">Ara, Arada</button>
-<button onclick="eganirk.play();">Egane Irikunu</button>
-<button onclick="nirthipoda.play();">Da Poda Nirthi</button>
-<br><br>
-<button onclick="okkuta.play();">Ok Da Kutta</button>
-<button onclick="vivaram.play();">Vivarum, Eniki</button>
-<button onclick="rickrol.play();">Rick Roll</button>
-<button onclick="silent.play();">Silent (Crickets)</button>
-<button onclick="carolofbells.play();">Carol Of Bells (Violin)</button>
-<br><br>
-<button onclick="gtamission.play();">Mission Completed</button>
-<button onclick="gtamission2.play();">Mission Completed 2</button>
-<button onclick="beep.play();">BEEP</button>
-<button onclick="lalala.play();">A Pattu Lalla</button>
-<button onclick="edabaya.play();">Eda Bayankara</button>
-</table>
-<footer>
-    <h2>&copy Bunny 2022</h2>
-</footer>
-<script>
-    const freshnew = new Audio();
-    freshnew.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577759956836352/fresh_new.mpeg";
+<nav>
+    <ul>
+        <li class="logo"><a href="https://BenedittoDavis.github.io" style="font-size: 30px;">Beneditto</a></li>
+        <li><a href="https://github.com/BenedittoDavis/">GitHub</a></li>
+        <li><a href="https://benedittodavis/fun/fun">Fun</a></li>
+        <li><a href="https://benedittodavis/page/about">About</a></li>
+    </ul>
+</nav>
 
-    const chandr = new Audio();
-    chandr.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577760359501944/chrndran_chothi.mp4";
-
-    const emotional = new Audio();
-    emotional.src = "https://cdn.discordapp.com/attachments/881491002953707561/936566628739588126/EMOTIONAL_DAMAGE_meme_Steven_He.mp3";
-
-    const carolofbells = new Audio();
-    carolofbells.src = "https://cdn.discordapp.com/attachments/881491002953707561/936573746511224893/Lindsey_Stirling_-_Carol_of_the_Bells_Official_Video.mp3";
-
-    const velachil = new Audio();
-    velachil.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577761441628210/velachil_edukaruthe.mp4";
-
-    const claps = new Audio();
-    claps.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577765329756210/claps.mpeg";
-
-    const vannu = new Audio();
-    vannu.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577760682467388/avan_vannu.mpeg"
-
-    const arada = new Audio();
-    arada.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577760929914920/ara__arada.mpeg"
-
-    const eganirk = new Audio();
-    eganirk.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577760162365470/engane_irikun.mpeg"
-
-    const nirthipoda = new Audio();
-    nirthipoda.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577761630359592/da_poda_nerthi_poda.mpeg"
-
-    const okkuta = new Audio();
-    okkuta.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577761957539890/ok_da_okda_kutta.mpeg"
-
-    const vivaram = new Audio();
-    vivaram.src = "https://cdn.discordapp.com/attachments/881491002953707561/936577761177399376/athipa_vevaram_ulath_konde.mp4"
-
-    const rickrol = new Audio();
-    rickrol.src = "https://cdn.discordapp.com/attachments/881491002953707561/936595200300683304/post_from_trash.mp3"
-
-    const silent = new Audio();
-    silent.src = "https://cdn.discordapp.com/attachments/881491002953707561/936595565737824296/Crickets_Awkward_Silence_-_Gaming_Sound_Effect_HD.mp3"
-   
-    const gtamission = new Audio();
-    gtamission.src = "https://cdn.discordapp.com/attachments/881491002953707561/936679888826540062/san_andres_misson_passed.mpeg"
-       
-    const gtamission2 = new Audio();
-    gtamission2.src = "https://cdn.discordapp.com/attachments/881491002953707561/936680123237810176/san_adres_mission_passed_2.mpeg"
-
-    const beep = new Audio();
-    beep.src = "https://cdn.discordapp.com/attachments/881491002953707561/936680795974828042/Censor_BEEP_Sound_Effect_TV_Error_Clip.mp3"
-
-    const lalala = new Audio();
-    lalala.src = "https://cdn.discordapp.com/attachments/881491002953707561/936869385312821258/a_pattu_lala_laaaa.mpeg"
-
-    const edabaya = new Audio();
-    edabaya.src = "https://cdn.discordapp.com/attachments/881491002953707561/936912645930491924/eda_bayankara.mpeg"
-
-</script>
+<div class="container1">
+    <button class="sbut" onclick="eda_bayankara.play();">eda bayankara</button>
+    <button class="sbut" onclick="engane_irikun.play();">engane irikun</button>
+    <button class="sbut" onclick="ente_mone_oh_my_god.play();">ente mone oh my god</button>
+    <button class="sbut" onclick="fresh_new.play();">fresh new</button>
+    <button class="sbut" onclick="kozhi_vanne.play();">kozhi vanne</button>
+    <button class="sbut" onclick="kayvetu_poyi.play();">kayvetu poyi</button>
+    <button class="sbut" onclick="namale_arkum_vendallo.play();">namale arkum vendallo</button>
+    <button class="sbut" onclick="ohhhhhhh.play();">ohhhhhhh</button>
+    <button class="sbut" onclick="ok_da_okda_kutta.play();">ok da kutta</button>
+    <button class="sbut" onclick="pora_simon.play();">pora simon</button>
+    <button class="sbut" onclick="sad_music.play();">sad music</button>
+    <button class="sbut" onclick="san_andres_misson_passed.play();">san andres misson passed</button>
+    <button class="sbut" onclick="velachil_edukaruthe.play();">velachil edukaruthe</button>
+    <button class="sbut" onclick="chrismas_asmakal.play();">chrismas asmakal</button>
+    <button class="sbut" onclick="chrndran_chothi.play();">chrndran chothi</button>
+    <button class="sbut" onclick="claps.play();">claps</button>
+    <button class="sbut" onclick="a_pattu_lala_laaaa.play();">a pattu lala</button>
+    <button class="sbut" onclick="ara__arada.play();">ara arada</button>
+    <button class="sbut" onclick="athipa_vevaram_ulath_konde.play();">athipa vevaram ulath konde</button>
+    <button class="sbut" onclick="avan_vannu.play();">avan vannu</button>
+    <button class="sbut" onclick="manushan_alle_pulle.play();">manushan alle pulle</button>
+    <button class="sbut" onclick="namal_paragan_stalthu_va.play();">namal paragan stalthu va</button>
+    <button class="sbut" onclick="net_off_cheyanna.play();">net off cheyanna</button>
+    <button class="sbut" onclick="ni_poda_udayappa.play();">ni poda udayappa</button>
+    <button class="sbut" onclick="njan_nithe_i_quit.play();">njan nithe i quit</button>
+    <button class="sbut" onclick="thug_thug_thharaa.play();">thug thug thharaa</button>
+    <button class="sbut" onclick="alrum_undayapa_njan_pavam.play();">alrum undayapa njan pavam</button>
+    <button class="sbut" onclick="ayinu_chirikana.play();">ayinu chirikana</button>
+    <button class="sbut" onclick="ni_poda_panda_udayappa.play();">ni poda pandae udayappa</button>
+    <button class="sbut" onclick="ninakokke_2nd_pothinne.play();">ninakokke 2nd pothinne</button>
+    <button class="sbut" onclick="njan_kanjavv_adichu_poyi.play();">njan kanjav vadichu poyi</button>
+    <button class="sbut" onclick="chekan_oru_bgm_kodukke.play();">chekan oru bgm kodukke</button>
+    <button class="sbut" onclick="ente_mone_ninaku_njn_entha_thara.play();">ente mone ninaku njn entha thara</button>
+    <button class="sbut" onclick="enthada_ee_groupil_girls_elle.play();">enthada ee groupil girls elle</button>
+    <button class="sbut" onclick="kanjava.play();">kanjava</button>
+    <button class="sbut" onclick="oru_rakshaa_ela_africail_poyallo_enayikka.play();">oru rakshaa ela africail poyallo enayikka</button>
+    <button class="sbut" onclick="pinne_alla.play();">pinne alla</button>
+    <button class="sbut" onclick="puuur.play();">puuur</button>
+    <button class="sbut" onclick="chekan_marku_ethoke_oru_annatham_ayi_marikunu.play();">chekan marku ethoke oru annatham ayi marikunu</button>
+    <button class="sbut" onclick="entha_monuse_power_kanikano.play();">entha monuse power kanikano</button>
+    <button class="sbut" onclick="enthuttta_eganeyokke_parayanne.play();">enthuttta eganeyokke parayanne</button>
+</div>
+<footer>&copy Beneditto 2022</footer>
 </body>
 </html>
