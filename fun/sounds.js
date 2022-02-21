@@ -89,6 +89,6 @@ oru_packet_curd_tharatte.src = "https://cdn.discordapp.com/attachments/940155709
 const oru_patt_vachu_thanna = new Audio();
 oru_patt_vachu_thanna.src = "https://cdn.discordapp.com/attachments/940155709427941446/944497890431229982/oru_patt_vachu_thanna.mpeg"
 const party_ille_pushpa = new Audio();
-party_ille_pushpa.src = "https://cdn.discordapp.com/attachments/940155709427941446/944497890611564574/party_ille_pushpa.mpeg""
+party_ille_pushpa.src = "https://cdn.discordapp.com/attachments/940155709427941446/944497890611564574/party_ille_pushpa.mpeg"
 const athe_hihihi = new Audio();
 athe_hihihi.src = "https://cdn.discordapp.com/attachments/940155709427941446/945327936247046164/athe_hihihi.mpeg"
