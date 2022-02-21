@@ -101,3 +101,15 @@ footer{
     background-color: snow;
     overflow: auto;
 }
+.stbox{
+    width: 200;
+    height: 200;
+    border: 1px solid black;
+    margin: 2px;
+    float: left;
+}
+.stimg{
+    width: 195px;
+    height: 195px;
+    margin: 1px;
+}
