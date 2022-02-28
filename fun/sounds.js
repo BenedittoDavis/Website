@@ -108,4 +108,9 @@ const beep = new Audio();
 beep.src = "https://cdn.discordapp.com/attachments/881491002953707561/936680795974828042/Censor_BEEP_Sound_Effect_TV_Error_Clip.mp3";
 const crickets = new Audio();
 crickets.src = "https://cdn.discordapp.com/attachments/881491002953707561/936595565737824296/Crickets_Awkward_Silence_-_Gaming_Sound_Effect_HD.mp3";
+const ayyoo_enth_parayan = new Audio();
+ayyoo_enth_parayan.src = "https://cdn.discordapp.com/attachments/940155709427941446/947852231988879380/ayyoo_enth_parayan.mp4";
+const poyi_valathum_eduthu_paddi = new Audio();
+poyi_valathum_eduthu_paddi.src = "https://cdn.discordapp.com/attachments/940155709427941446/947852232265728030/poyi_valathum_eduthu_paddi.mp4";
+
 
