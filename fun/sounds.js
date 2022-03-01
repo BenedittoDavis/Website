@@ -112,5 +112,7 @@ const ayyoo_enth_parayan = new Audio();
 ayyoo_enth_parayan.src = "https://cdn.discordapp.com/attachments/940155709427941446/947852231988879380/ayyoo_enth_parayan.mp4";
 const poyi_valathum_eduthu_paddi = new Audio();
 poyi_valathum_eduthu_paddi.src = "https://cdn.discordapp.com/attachments/940155709427941446/947852232265728030/poyi_valathum_eduthu_paddi.mp4";
+const ethokkk_ara_friend_ana = new Audio();
+ethokkk_ara_friend_ana.src = "https://cdn.discordapp.com/attachments/940155709427941446/948016198291947561/ethokkk_ara_friend_ana.mp3"
 
 
